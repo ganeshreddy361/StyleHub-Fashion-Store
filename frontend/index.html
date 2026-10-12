@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StyleHub - Fashion Mini Store</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+
+        <div class="logo">
+            StyleHub
+        </div>
+
+        <nav>
+
+            <a href="#">
+                Home
+            </a>
+
+            <a href="#products">
+                Products
+            </a>
+
+            <a href="#cart">
+                Cart 🛒
+            </a>
+
+            <a href="#login-section">
+                Login
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Hero Section -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>
+                Discover Your Style
+            </h1>
+
+            <p>
+                Trendy fashion. Premium quality.
+                Everything you need in one place.
+            </p>
+
+            <button onclick="scrollToProducts()">
+                Shop Now
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- Login Section -->
+
+    <section id="login-section">
+
+        <h2>
+            Login
+        </h2>
+
+        <div class="login-form">
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Email"
+            >
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Password"
+            >
+
+            <button onclick="login()">
+                Login
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- Logout -->
+
+    <div id="logout-button">
+
+        <button onclick="logout()">
+            Logout
+        </button>
+
+    </div>
+
+
+    <!-- Products Section -->
+
+    <section id="products">
+
+        <h2>
+            Our Products
+        </h2>
+
+        <div id="product-list">
+
+            <p>
+                Loading products...
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Cart Section -->
+
+    <section id="cart">
+
+        <h2>
+            Your Cart
+        </h2>
+
+        <div id="cart-list">
+
+            <p>
+                Please login to view your cart.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            © 2026 StyleHub - Fashion Mini Store
+        </p>
+
+    </footer>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
